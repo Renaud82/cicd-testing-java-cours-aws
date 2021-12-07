@@ -116,18 +116,6 @@ class CalculatorTest {
 		assertEquals(expectResult, actualResult);
 	}
 
-	@Timeout(1)
-	@Test
-	void longCalcul_shouldComputeInLessThan1Second() {
-		// Arrange
-
-		// Act
-		calculatorUnderTest.longCalculation();
-
-		// Assert
-		// ...
-	}
-
 	@Test
 	void listDigits_shouldReturnsTheListOfDigits_ofPositiveInteger() {
 		// GIVEN
